@@ -6,6 +6,7 @@ script:
 deploy:
   - provider: script
     skip_cleanup: true
+    script: bash scripts/deploy.sh
     github-token: $GITHUB_TOKEN
     on:
       repo: nimeshkasun/Intake34FOC
