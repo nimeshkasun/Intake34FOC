@@ -11,4 +11,4 @@
  export SURGE_TOKEN=dbc026a59eba422da5cb65debf37eaf0c332bf09
 
  export DEPLOY_DOMAIN=https://pr-${TRAVIS_PULL_REQUEST}-intake34foc.surge.sh
- surge —domain $DEPLOY_DOMAIN;
+ surge --project ./ --domain $DEPLOY_DOMAIN;
